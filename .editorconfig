@@ -1,0 +1,26 @@
+
+[*.js]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+trim_trailing_whitespace = true
+charset = utf-8
+
+[*.yaml]
+indent_style = space
+indent_size = 2
+
+[*.jade]
+max_line_length = 0
+trim_trailing_whitespace = true
+indent_size = 2
+indent_style = space
+max_line_length = 160
+
+[*.md]
+max_line_length = 0
+trim_trailing_whitespace = false
+
+[*.scss]
+indent_size = 2
+indent_style = space

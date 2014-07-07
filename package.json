@@ -1,0 +1,29 @@
+{
+  "name": "hajson",
+  "version": "0.0.0",
+  "description": "Takes JSON and turns it into HAProxy config file",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TJkrusinski/hajson.git"
+  },
+  "keywords": [
+    "haproxy",
+    "json"
+  ],
+  "author": "TJ Krusinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TJkrusinski/hajson/issues"
+  },
+  "homepage": "https://github.com/TJkrusinski/hajson",
+  "devDependencies": {
+    "chai": "^1.9.1"
+  }
+}

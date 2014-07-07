@@ -1,0 +1,30 @@
+{
+  "global": {
+    "prop": "value" 
+  },
+  "defaults": {
+    "prop": "value" 
+  },
+  "frontend": [
+    {
+      "https-in": {
+        "acl": "is_mobile dom.begin mobile.",
+        "timeout": "10s"
+      }
+    },
+    {
+      "http-in": {
+        "acl": "is_mobile dom.begin mobile.",
+        "timeout": "10s"
+      }
+    }
+  ],
+  "backend": [
+    {
+      "name": {
+        "server": "127.0.0.1:3000",
+        "timeout": "10s"
+      }
+    }
+  ]
+}
