@@ -36,17 +36,15 @@ Takes JSON and turns it into HAProxy config file.
     }
   ]
 }
-
 ```
 
 ### Usage
 
 ```javascript
-
 var hajson = require('hajson');
 hajson(json);
 ```
-### yields:
+### returns:
 
 ```
 global
