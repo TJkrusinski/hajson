@@ -7,7 +7,7 @@ Takes JSON and turns it into HAProxy config file.
 ```json
 {
   "global": {
-    "prop": "value" 
+    "prop": "value",
     "stats socket": "/tmp/haproxy level admin"
   },
   "defaults": {
