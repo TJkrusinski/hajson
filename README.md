@@ -16,13 +16,13 @@ Takes JSON and turns it into HAProxy config file.
   "frontend": [
     {
       "https-in": {
-        "acl": "is_mobile dom.begin mobile.",
+        "acl is_mobile ": "dom.begin mobile.",
         "timeout": "10s"
       }
     },
     {
       "http-in": {
-        "acl": "is_mobile dom.begin mobile.",
+        "acl is_mobile": "dom.begin mobile.",
         "timeout": "10s"
       }
     }
